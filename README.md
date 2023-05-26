@@ -24,7 +24,7 @@ a. Download Spring Test Suite
 b. Create a Spring boot application
 --------------------------------------------------------------
 Tech Stack to be used:
-1. Java - > Core Java, Spring boot, Rest API, Deployment 
+1. Java - > Core Java, Spring boot, Rest API, Deployment
 2.React
 # 1.SpringBoot
 My first Spring Boot application- Hello World 
