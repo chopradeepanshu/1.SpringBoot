@@ -5,13 +5,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloWorld1ApplicationController {
+public class HelloWorldApplicationController {
 
 	@GetMapping("/hello/{name}")
     public String hello(@PathVariable String name) {
-    	
-    	String formatname = name.toUpperCase();
-        return "<h1> Hello,<h1>" + formatname;
+
+        return "Hello, "+name;
     }
 
 }
